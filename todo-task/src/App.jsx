@@ -19,6 +19,7 @@ function App() {
       <div className="center-container">
         <TodoInput addList={addList}/>
         <h1 className="app-heading">TODO</h1>
+        
         <hr/>
         {listTodo.map((listItem,i)=>{
           return (

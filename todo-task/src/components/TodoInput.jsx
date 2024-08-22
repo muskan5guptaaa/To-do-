@@ -10,6 +10,7 @@ function TodoInput(props) {
     }
   return (
     <div className="input-container">
+        
       <input
         type="text"
         className="input-box-todo"

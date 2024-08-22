@@ -5,10 +5,11 @@ function Todolist(props) {
     <li className="list-item">
         {props.item}
         <span className='icons'>
-        <i class="uil uil-search">
+        <i class="fa-solid fa-trash-can icon delete" 
+        
         onClick={e=>{
             props.deleteItem(props.index)
-        }}</i>
+        }}></i>
         </span>
     </li>
   )
