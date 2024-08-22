@@ -1,8 +1,11 @@
 import React from 'react'
-
+import GithubUser from './components/GithubUser'
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <GithubUser />
+      <GithubUser />
+    </div>
   )
 }
 
